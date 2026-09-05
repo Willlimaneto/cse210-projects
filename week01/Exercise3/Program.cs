@@ -11,7 +11,7 @@ class Program
         //string answer = Console.ReadLine();
         //int randomNum = int.Parse(answer);
         Random random = new Random();
-        int randomNum = random.Next(1,100);
+        int randomNum = random.Next(1,101);
         
         int guessedNum = 0;
         int guesses = 0;
